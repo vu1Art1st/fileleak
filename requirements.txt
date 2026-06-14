@@ -1,0 +1,4 @@
+aiohttp>=3.8.0
+aiohttp-socks>=0.7.0
+click>=8.0.0
+rich>=12.0.0

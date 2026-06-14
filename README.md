@@ -305,3 +305,17 @@ fileleak/
 - 支持 7 种泄露类型
 - asyncio 异步架构 + Rich 彩色输出
 - 智能 404 检测 + 路径安全校验
+
+## 感谢
+
+本项目在设计和实现过程中参考并借鉴了以下优秀开源项目：
+
+| 项目 | 说明 | 链接 |
+|------|------|------|
+| GitHack | 轻量快速的 Git 泄露利用工具 | [github.com/lijiejie/GitHack](https://github.com/lijiejie/GitHack) |
+| GitHacker | 完整恢复 Git 仓库历史的工具 | [github.com/WangYihang/GitHacker](https://github.com/WangYihang/GitHacker) |
+| ds_store_exp | macOS .DS_Store 文件泄露利用工具 | [github.com/lijiejie/ds_store_exp](https://github.com/lijiejie/ds_store_exp) |
+| dumpall | 异步架构的文件泄露利用工具 | [github.com/0xHJK/dumpall](https://github.com/0xHJK/dumpall) |
+| dvcs-ripper | 多版本控制系统泄露利用工具 | [github.com/kost/dvcs-ripper](https://github.com/kost/dvcs-ripper) |
+
+感谢以上项目的作者们为安全社区做出的贡献！

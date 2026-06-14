@@ -1,0 +1,23 @@
+[project]
+name = "fileleak"
+version = "1.1.0"
+description = "综合性文件泄露利用工具，支持 Git/SVN/Mercurial/Bazaar/CVS/DS_Store/Directory 七大泄露类型"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "aiohttp>=3.8.0",
+    "aiohttp-socks>=0.7.0",
+    "click>=8.0.0",
+    "rich>=12.0.0",
+]
+
+[project.scripts]
+fileleak = "fileleak.cli:cli"
+
+[build-system]
+requires = ["setuptools>=61.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[[tool.uv.index]]
+url = "https://mirrors.aliyun.com/pypi/simple/"
+default = true
